@@ -16,7 +16,7 @@ public class CandidatesControllerTest extends AbstractTest {
 	   public void setUp() {
 	      super.setUp();
 	   }
-	   @Test
+	  /* @Test
 	   public void checkEmailUnicityTest() throws Exception {
 	      String uri = "/email/checkUnicity/Adecco";
 	      
@@ -32,6 +32,6 @@ public class CandidatesControllerTest extends AbstractTest {
 	      String content = mvcResult.getResponse().getContentAsString();
 	      CheckUnicityResponse checkUnicityResponse = super.mapFromJson(content, CheckUnicityResponse.class);
 	      assertTrue(checkUnicityResponse.isSuccess()==true);
-	   }
+	   }*/
 
 }
